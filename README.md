@@ -16,6 +16,13 @@ Query (text)
               Print IDs + scores
                         │
                         ▼
+              Cross-modal pair enrichment
+              (fetch paired entries via group_id lookup)
+                        │
+                        ▼
+              Reorder: paired images first
+                        │
+                        ▼
               Claude API (multimodal)
               - Text evidence (as text)
               - Image evidence (as images)
