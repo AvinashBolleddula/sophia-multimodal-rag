@@ -39,7 +39,7 @@ def format_image_results(results) -> str:
 def format_pairs(pairs) -> str:
     """Format cross-modal pairs for display."""
     if not pairs:
-        return "  (no cross-modal pairs found in current results)"
+        return "  (no cross-modal pairs found naturally via top k in current results, enriching with group_id lookup)"
     lines = []
     for p in pairs:
         lines.append(

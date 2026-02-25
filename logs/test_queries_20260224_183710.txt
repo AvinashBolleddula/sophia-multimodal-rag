@@ -1,6 +1,6 @@
 ========================================================================
 SOPHIA SPATIAL AI — MULTIMODAL RAG TEST QUERIES
-Timestamp: 2026-02-24T17:09:50.617139
+Timestamp: 2026-02-24T18:36:36.895507
 ========================================================================
 
 
@@ -23,45 +23,51 @@ Parameters: k_text=5, k_image=5
 🖼️  IMAGE RETRIEVAL RESULTS:
   [1] ai2d_0045_img          score: 0.3216  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0045.png
   [2] ai2d_0046_img          score: 0.3216  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0046.png
-  [3] ai2d_0040_img          score: 0.2937  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0040.png
-  [4] ai2d_0041_img          score: 0.2937  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0041.png
+  [3] ai2d_0041_img          score: 0.2937  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0041.png
+  [4] ai2d_0042_img          score: 0.2937  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0042.png
   [5] ai2d_0043_img          score: 0.2937  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0043.png
 
 🔗 CROSS-MODAL PAIRS (shared group_id):
-  (no cross-modal pairs found in current results)
+  (no cross-modal pairs found naturally via top k in current results, enriching with group_id lookup)
 
 🔗 ENRICHED PAIRS (fetched via group_id lookup):
-  group_id: ai2d_0041  →  text: ai2d_0041_txt (score: -1.0000)  |  image: ai2d_0041_img (score: 0.2937)
-  group_id: ai2d_0040  →  text: ai2d_0040_txt (score: -1.0000)  |  image: ai2d_0040_img (score: 0.2937)
-  group_id: ai2d_0046  →  text: ai2d_0046_txt (score: -1.0000)  |  image: ai2d_0046_img (score: 0.3216)
-  group_id: ai2d_0152  →  text: ai2d_0152_txt (score: 0.5808)  |  image: ai2d_0152_img (score: -1.0000)
-  group_id: ai2d_0218  →  text: ai2d_0218_txt (score: 0.5831)  |  image: ai2d_0218_img (score: -1.0000)
-  group_id: ai2d_0025  →  text: ai2d_0025_txt (score: 0.5777)  |  image: ai2d_0025_img (score: -1.0000)
   group_id: ai2d_0048  →  text: ai2d_0048_txt (score: 0.5907)  |  image: ai2d_0048_img (score: -1.0000)
+  group_id: ai2d_0152  →  text: ai2d_0152_txt (score: 0.5808)  |  image: ai2d_0152_img (score: -1.0000)
+  group_id: ai2d_0042  →  text: ai2d_0042_txt (score: -1.0000)  |  image: ai2d_0042_img (score: 0.2937)
   group_id: ai2d_0043  →  text: ai2d_0043_txt (score: -1.0000)  |  image: ai2d_0043_img (score: 0.2937)
-  group_id: ai2d_0195  →  text: ai2d_0195_txt (score: 0.6500)  |  image: ai2d_0195_img (score: -1.0000)
+  group_id: ai2d_0046  →  text: ai2d_0046_txt (score: -1.0000)  |  image: ai2d_0046_img (score: 0.3216)
+  group_id: ai2d_0025  →  text: ai2d_0025_txt (score: 0.5777)  |  image: ai2d_0025_img (score: -1.0000)
+  group_id: ai2d_0041  →  text: ai2d_0041_txt (score: -1.0000)  |  image: ai2d_0041_img (score: 0.2937)
+  group_id: ai2d_0218  →  text: ai2d_0218_txt (score: 0.5831)  |  image: ai2d_0218_img (score: -1.0000)
   group_id: ai2d_0045  →  text: ai2d_0045_txt (score: -1.0000)  |  image: ai2d_0045_img (score: 0.3216)
+  group_id: ai2d_0195  →  text: ai2d_0195_txt (score: 0.6500)  |  image: ai2d_0195_img (score: -1.0000)
 
 💬 GENERATING GROUNDED ANSWER...
 
 ────────────────────────────────────────────────────────────────────────
 ANSWER:
-Based on the text evidence provided, the diagram questions and their correct answers are:
+Based on the text evidence provided, I can identify several diagram questions and their correct answers:
 
-For the mosquito development diagram, the correct answer states that there are 4 stages in the development of a mosquito [ai2d_0045_txt]. For the egg stage identification, stage D represents the egg [ai2d_0046_txt].
+The ai2d_0195 diagram question asks "Which Diagram Shows spring Here?" and the correct answer is C [ai2d_0195_txt].
 
-For the frog life cycle diagrams, during step A the egg is released from the egg mass [ai2d_0040_txt], stage C shows "Tadpoles with legs" [ai2d_0041_txt], and stage E shows the "egg mass" [ai2d_0043_txt].
+The ai2d_0048 diagram question asks "What is the new moon in the diagram?" and the correct answer is B [ai2d_0048_txt].
 
-The corresponding images [ai2d_0045_img] [ai2d_0046_img] show circular lifecycle diagrams with stages labeled A, B, C, and D, while [ai2d_0040_img] displays a detailed frog life cycle with visual representations of each stage including egg mass (E), tadpole (A), tadpole with tail (C), young frog (D), and adult frog (B).
+The ai2d_0218 diagram question asks "Where is the Arctic Circle on the diagram?" and the correct answer is C [ai2d_0218_txt].
+
+The ai2d_0152 diagram question asks "Maturity is best represented by which letter in the diagram?" and the correct answer is A [ai2d_0152_txt].
+
+The ai2d_0025 diagram question asks "Which of the following correctly characterizes energy flow in the diagram?" and the correct answer is "Fish to bird" [ai2d_0025_txt].
+
+Additionally, there are several life cycle-related diagram questions: one shows mosquito development has 4 stages [ai2d_0045_txt], another identifies stage D as representing the egg [ai2d_0046_txt], and diagrams show frog life cycles where stage C represents "Tadpoles with legs" [ai2d_0041_txt] and stage E shows "egg mass" [ai2d_0043_txt].
 ────────────────────────────────────────────────────────────────────────
 
 📋 CITATION REPORT:
-  Citations found:       ['ai2d_0045_txt', 'ai2d_0046_txt', 'ai2d_0040_txt', 'ai2d_0041_txt', 'ai2d_0043_txt', 'ai2d_0045_img', 'ai2d_0046_img', 'ai2d_0040_img']
-  Valid citations:       ['ai2d_0045_txt', 'ai2d_0046_txt', 'ai2d_0040_txt', 'ai2d_0041_txt', 'ai2d_0043_txt', 'ai2d_0045_img', 'ai2d_0046_img', 'ai2d_0040_img']
+  Citations found:       ['ai2d_0195_txt', 'ai2d_0048_txt', 'ai2d_0218_txt', 'ai2d_0152_txt', 'ai2d_0025_txt', 'ai2d_0045_txt', 'ai2d_0046_txt', 'ai2d_0041_txt', 'ai2d_0043_txt']
+  Valid citations:       ['ai2d_0195_txt', 'ai2d_0048_txt', 'ai2d_0218_txt', 'ai2d_0152_txt', 'ai2d_0025_txt', 'ai2d_0045_txt', 'ai2d_0046_txt', 'ai2d_0041_txt', 'ai2d_0043_txt']
   ✅ No hallucinated citations detected.
 
   Model: claude-sonnet-4-20250514
-  Tokens: 2720 in / 245 out
+  Tokens: 2726 in / 320 out
 ========================================================================
 
 
@@ -83,40 +89,40 @@ Parameters: k_text=5, k_image=5
 
 🖼️  IMAGE RETRIEVAL RESULTS:
   [1] ai2d_0069_img          score: 0.3031  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0069.png
-  [2] ai2d_0073_img          score: 0.3031  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0073.png
+  [2] ai2d_0070_img          score: 0.3031  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0070.png
   [3] ai2d_0074_img          score: 0.3031  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0074.png
   [4] ai2d_0076_img          score: 0.3031  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0076.png
-  [5] ai2d_0077_img          score: 0.3031  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0077.png
+  [5] ai2d_0078_img          score: 0.3031  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0078.png
 
 🔗 CROSS-MODAL PAIRS (shared group_id):
-  (no cross-modal pairs found in current results)
+  (no cross-modal pairs found naturally via top k in current results, enriching with group_id lookup)
 
 🔗 ENRICHED PAIRS (fetched via group_id lookup):
-  group_id: ai2d_0012  →  text: ai2d_0012_txt (score: 0.3866)  |  image: ai2d_0012_img (score: -1.0000)
-  group_id: ai2d_0069  →  text: ai2d_0069_txt (score: -1.0000)  |  image: ai2d_0069_img (score: 0.3031)
-  group_id: ai2d_0074  →  text: ai2d_0074_txt (score: -1.0000)  |  image: ai2d_0074_img (score: 0.3031)
-  group_id: ai2d_0082  →  text: ai2d_0082_txt (score: 0.5689)  |  image: ai2d_0082_img (score: -1.0000)
-  group_id: ai2d_0076  →  text: ai2d_0076_txt (score: -1.0000)  |  image: ai2d_0076_img (score: 0.3031)
-  group_id: ai2d_0073  →  text: ai2d_0073_txt (score: -1.0000)  |  image: ai2d_0073_img (score: 0.3031)
-  group_id: ai2d_0077  →  text: ai2d_0077_txt (score: -1.0000)  |  image: ai2d_0077_img (score: 0.3031)
-  group_id: ai2d_0194  →  text: ai2d_0194_txt (score: 0.4040)  |  image: ai2d_0194_img (score: -1.0000)
+  group_id: ai2d_0070  →  text: ai2d_0070_txt (score: -1.0000)  |  image: ai2d_0070_img (score: 0.3031)
   group_id: ai2d_0042  →  text: ai2d_0042_txt (score: 0.4426)  |  image: ai2d_0042_img (score: -1.0000)
+  group_id: ai2d_0082  →  text: ai2d_0082_txt (score: 0.5689)  |  image: ai2d_0082_img (score: -1.0000)
+  group_id: ai2d_0078  →  text: ai2d_0078_txt (score: -1.0000)  |  image: ai2d_0078_img (score: 0.3031)
+  group_id: ai2d_0074  →  text: ai2d_0074_txt (score: -1.0000)  |  image: ai2d_0074_img (score: 0.3031)
+  group_id: ai2d_0069  →  text: ai2d_0069_txt (score: -1.0000)  |  image: ai2d_0069_img (score: 0.3031)
+  group_id: ai2d_0076  →  text: ai2d_0076_txt (score: -1.0000)  |  image: ai2d_0076_img (score: 0.3031)
+  group_id: ai2d_0012  →  text: ai2d_0012_txt (score: 0.3866)  |  image: ai2d_0012_img (score: -1.0000)
   group_id: ai2d_0080  →  text: ai2d_0080_txt (score: 0.3914)  |  image: ai2d_0080_img (score: -1.0000)
+  group_id: ai2d_0194  →  text: ai2d_0194_txt (score: 0.4040)  |  image: ai2d_0194_img (score: -1.0000)
 
 💬 GENERATING GROUNDED ANSWER...
 
 ────────────────────────────────────────────────────────────────────────
 ANSWER:
-Based on the available evidence, I can identify a relevant AI2D diagram about the life cycle of a plant. The diagram portrays the life cycle of a plant process, showing the various developmental stages that plants go through during their growth and reproduction [ai2d_0082_txt] [ai2d_0082_img]. This type of biological cycle diagram illustrates the sequential phases of plant development from one generation to the next.
+Based on the available evidence, I can identify a relevant AI2D diagram about the life cycle of a plant [ai2d_0082_txt] [ai2d_0082_img]. This diagram portrays the complete life cycle process that plants undergo as they grow, develop, and reproduce [ai2d_0082_txt]. The diagram shows the various stages plants go through from seed germination to mature plant development and back to seed production, illustrating the cyclical nature of plant reproduction and growth [ai2d_0082_txt].
 ────────────────────────────────────────────────────────────────────────
 
 📋 CITATION REPORT:
-  Citations found:       ['ai2d_0082_txt', 'ai2d_0082_img']
-  Valid citations:       ['ai2d_0082_txt', 'ai2d_0082_img']
+  Citations found:       ['ai2d_0082_txt', 'ai2d_0082_img', 'ai2d_0082_txt', 'ai2d_0082_txt']
+  Valid citations:       ['ai2d_0082_txt', 'ai2d_0082_img', 'ai2d_0082_txt', 'ai2d_0082_txt']
   ✅ No hallucinated citations detected.
 
   Model: claude-sonnet-4-20250514
-  Tokens: 2315 in / 93 out
+  Tokens: 2298 in / 119 out
 ========================================================================
 
 
@@ -139,45 +145,47 @@ Parameters: k_text=5, k_image=5
 🖼️  IMAGE RETRIEVAL RESULTS:
   [1] ai2d_0045_img          score: 0.3139  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0045.png
   [2] ai2d_0046_img          score: 0.3139  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0046.png
-  [3] ai2d_0069_img          score: 0.3004  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0069.png
-  [4] ai2d_0071_img          score: 0.3004  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0071.png
-  [5] ai2d_0072_img          score: 0.3004  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0072.png
+  [3] ai2d_0072_img          score: 0.3004  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0072.png
+  [4] ai2d_0073_img          score: 0.3004  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0073.png
+  [5] ai2d_0076_img          score: 0.3004  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0076.png
 
 🔗 CROSS-MODAL PAIRS (shared group_id):
-  (no cross-modal pairs found in current results)
+  (no cross-modal pairs found naturally via top k in current results, enriching with group_id lookup)
 
 🔗 ENRICHED PAIRS (fetched via group_id lookup):
-  group_id: ai2d_0011  →  text: ai2d_0011_txt (score: 0.3871)  |  image: ai2d_0011_img (score: -1.0000)
-  group_id: ai2d_0069  →  text: ai2d_0069_txt (score: -1.0000)  |  image: ai2d_0069_img (score: 0.3004)
-  group_id: ai2d_0046  →  text: ai2d_0046_txt (score: -1.0000)  |  image: ai2d_0046_img (score: 0.3139)
-  group_id: ai2d_0207  →  text: ai2d_0207_txt (score: 0.3438)  |  image: ai2d_0207_img (score: -1.0000)
-  group_id: ai2d_0133  →  text: ai2d_0133_txt (score: 0.3506)  |  image: ai2d_0133_img (score: -1.0000)
-  group_id: ai2d_0072  →  text: ai2d_0072_txt (score: -1.0000)  |  image: ai2d_0072_img (score: 0.3004)
-  group_id: ai2d_0071  →  text: ai2d_0071_txt (score: -1.0000)  |  image: ai2d_0071_img (score: 0.3004)
-  group_id: chartqa_0084  →  text: chartqa_0084_txt (score: 0.3728)  |  image: chartqa_0084_img (score: -1.0000)
-  group_id: ai2d_0045  →  text: ai2d_0045_txt (score: -1.0000)  |  image: ai2d_0045_img (score: 0.3139)
   group_id: ai2d_0117  →  text: ai2d_0117_txt (score: 0.3496)  |  image: ai2d_0117_img (score: -1.0000)
+  group_id: ai2d_0133  →  text: ai2d_0133_txt (score: 0.3506)  |  image: ai2d_0133_img (score: -1.0000)
+  group_id: ai2d_0011  →  text: ai2d_0011_txt (score: 0.3871)  |  image: ai2d_0011_img (score: -1.0000)
+  group_id: ai2d_0072  →  text: ai2d_0072_txt (score: -1.0000)  |  image: ai2d_0072_img (score: 0.3004)
+  group_id: ai2d_0207  →  text: ai2d_0207_txt (score: 0.3438)  |  image: ai2d_0207_img (score: -1.0000)
+  group_id: ai2d_0046  →  text: ai2d_0046_txt (score: -1.0000)  |  image: ai2d_0046_img (score: 0.3139)
+  group_id: chartqa_0084  →  text: chartqa_0084_txt (score: 0.3728)  |  image: chartqa_0084_img (score: -1.0000)
+  group_id: ai2d_0076  →  text: ai2d_0076_txt (score: -1.0000)  |  image: ai2d_0076_img (score: 0.3004)
+  group_id: ai2d_0073  →  text: ai2d_0073_txt (score: -1.0000)  |  image: ai2d_0073_img (score: 0.3004)
+  group_id: ai2d_0045  →  text: ai2d_0045_txt (score: -1.0000)  |  image: ai2d_0045_img (score: 0.3139)
 
 💬 GENERATING GROUNDED ANSWER...
 
 ────────────────────────────────────────────────────────────────────────
 ANSWER:
-I can identify several diagram-text pairs with matching group IDs from the evidence provided. Let me explain one clear example:
+I can identify several diagrams with their paired text evidence that share the same group ID. Let me explain one clear example:
 
-The mosquito life cycle diagram [ai2d_0045_img] is paired with its corresponding text evidence [ai2d_0045_txt]. Both share the same group ID "ai2d_0045", which establishes their linkage. The diagram shows a circular life cycle with four stages labeled A, B, C, and D, connected by arrows indicating the progression through the cycle [ai2d_0045_img]. The paired text confirms this is a mosquito development diagram and states that there are 4 stages in mosquito development [ai2d_0045_txt].
+The mosquito life cycle diagram [ai2d_0045_img] is paired with its corresponding text evidence [ai2d_0045_txt]. Both share the same group identifier "ai2d_0045", which indicates they are linked materials from the same source document. The diagram shows a circular life cycle with four stages labeled A, B, C, and D, while the paired text confirms that mosquito development has 4 stages [ai2d_0045_txt].
 
-I linked them by matching their group identifiers - both have "ai2d_0045" as their prefix before the "_img" and "_txt" suffixes, indicating they are different representations (visual and textual) of the same educational content about mosquito life cycles.
+Similarly, I can see another linked pair: the life cycle diagram [ai2d_0046_img] with its text [ai2d_0046_txt], both sharing group "ai2d_0046". The image shows the same circular diagram structure, and the text identifies that stage D represents the egg [ai2d_0046_txt].
 
-Another example is the food web diagram [ai2d_0069_img] paired with [ai2d_0069_txt], both sharing group ID "ai2d_0069". The image shows a food web with grass leading to cricket, sheep, and deer, with arrows pointing to rat, owl, and wolf [ai2d_0069_img], while the text discusses how an increase in sheep leads to an increase in wolves in this food chain [ai2d_0069_txt].
+A third example is the food web diagram [ai2d_0072_img] paired with [ai2d_0072_txt], both from group "ai2d_0072". The image shows a food web with grass leading to cricket, rat, and sheep, with arrows indicating energy flow to owl and wolf, while the text identifies the owl as the tertiary consumer in this food web [ai2d_0072_txt].
+
+The linkage system works by matching the prefix before "_img" and "_txt" - when these match, it indicates the visual and textual content are describing the same scientific concept or diagram.
 ────────────────────────────────────────────────────────────────────────
 
 📋 CITATION REPORT:
-  Citations found:       ['ai2d_0045_img', 'ai2d_0045_txt', 'ai2d_0045_img', 'ai2d_0045_txt', 'ai2d_0069_img', 'ai2d_0069_txt', 'ai2d_0069_img', 'ai2d_0069_txt']
-  Valid citations:       ['ai2d_0045_img', 'ai2d_0045_txt', 'ai2d_0045_img', 'ai2d_0045_txt', 'ai2d_0069_img', 'ai2d_0069_txt', 'ai2d_0069_img', 'ai2d_0069_txt']
+  Citations found:       ['ai2d_0045_img', 'ai2d_0045_txt', 'ai2d_0045_txt', 'ai2d_0046_img', 'ai2d_0046_txt', 'ai2d_0046_txt', 'ai2d_0072_img', 'ai2d_0072_txt', 'ai2d_0072_txt']
+  Valid citations:       ['ai2d_0045_img', 'ai2d_0045_txt', 'ai2d_0045_txt', 'ai2d_0046_img', 'ai2d_0046_txt', 'ai2d_0046_txt', 'ai2d_0072_img', 'ai2d_0072_txt', 'ai2d_0072_txt']
   ✅ No hallucinated citations detected.
 
   Model: claude-sonnet-4-20250514
-  Tokens: 2418 in / 322 out
+  Tokens: 2416 in / 343 out
 ========================================================================
 
 
@@ -202,39 +210,39 @@ Parameters: k_text=5, k_image=5
   [2] chartqa_0069_img       score: 0.2706  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/chartqa/chartqa_0069.png
   [3] chartqa_0114_img       score: 0.2687  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/chartqa/chartqa_0114.png
   [4] chartqa_0115_img       score: 0.2687  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/chartqa/chartqa_0115.png
-  [5] chartqa_0010_img       score: 0.2634  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/chartqa/chartqa_0010.png
+  [5] chartqa_0011_img       score: 0.2634  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/chartqa/chartqa_0011.png
 
 🔗 CROSS-MODAL PAIRS (shared group_id):
-  (no cross-modal pairs found in current results)
+  (no cross-modal pairs found naturally via top k in current results, enriching with group_id lookup)
 
 🔗 ENRICHED PAIRS (fetched via group_id lookup):
-  group_id: chartqa_0114  →  text: chartqa_0114_txt (score: -1.0000)  |  image: chartqa_0114_img (score: 0.2687)
-  group_id: chartqa_0010  →  text: chartqa_0010_txt (score: -1.0000)  |  image: chartqa_0010_img (score: 0.2634)
-  group_id: chartqa_0115  →  text: chartqa_0115_txt (score: -1.0000)  |  image: chartqa_0115_img (score: 0.2687)
+  group_id: chartqa_0011  →  text: chartqa_0011_txt (score: -1.0000)  |  image: chartqa_0011_img (score: 0.2634)
   group_id: chartqa_0038  →  text: chartqa_0038_txt (score: 0.4487)  |  image: chartqa_0038_img (score: -1.0000)
-  group_id: chartqa_0069  →  text: chartqa_0069_txt (score: -1.0000)  |  image: chartqa_0069_img (score: 0.2706)
   group_id: chartqa_0068  →  text: chartqa_0068_txt (score: -1.0000)  |  image: chartqa_0068_img (score: 0.2706)
-  group_id: chartqa_0079  →  text: chartqa_0079_txt (score: 0.4320)  |  image: chartqa_0079_img (score: -1.0000)
   group_id: chartqa_0248  →  text: chartqa_0248_txt (score: 0.4170)  |  image: chartqa_0248_img (score: -1.0000)
   group_id: ai2d_0104  →  text: ai2d_0104_txt (score: 0.4497)  |  image: ai2d_0104_img (score: -1.0000)
+  group_id: chartqa_0115  →  text: chartqa_0115_txt (score: -1.0000)  |  image: chartqa_0115_img (score: 0.2687)
   group_id: chartqa_0130  →  text: chartqa_0130_txt (score: 0.4136)  |  image: chartqa_0130_img (score: -1.0000)
+  group_id: chartqa_0079  →  text: chartqa_0079_txt (score: 0.4320)  |  image: chartqa_0079_img (score: -1.0000)
+  group_id: chartqa_0114  →  text: chartqa_0114_txt (score: -1.0000)  |  image: chartqa_0114_img (score: 0.2687)
+  group_id: chartqa_0069  →  text: chartqa_0069_txt (score: -1.0000)  |  image: chartqa_0069_img (score: 0.2706)
 
 💬 GENERATING GROUNDED ANSWER...
 
 ────────────────────────────────────────────────────────────────────────
 ANSWER:
-Based on the provided evidence, I can identify a chart that compares categories. Looking at the cereal yield chart [chartqa_0114_img], this shows a comparison of cereal yields across different countries/regions in 2001 [chartqa_0114_img]. The chart displays cereal yields measured in tonnes per hectare for Serbia and Montenegro, South America, India, Liberia, and Rwanda [chartqa_0114_img].
+Based on the available evidence, I can identify a chart that compares categories. The cereal yield chart from 2001 shows a comparison across different countries/regions [chartqa_0114_img] [chartqa_0114_txt]. 
 
-According to the chart, Serbia and Montenegro has the highest cereal yield at 4.26 tonnes per hectare [chartqa_0114_img]. This is supported by the paired text evidence which confirms that India's value is 2.42 [chartqa_0114_txt], making Serbia and Montenegro clearly the highest category in this comparison chart.
+In this chart, Serbia and Montenegro has the highest cereal yield at 4.26 tonnes per hectare, followed by South America at 3.19 tonnes per hectare, India at 2.42 tonnes per hectare, Liberia at 1.12 tonnes per hectare, and Rwanda at 0.91 tonnes per hectare [chartqa_0114_img]. The text evidence confirms that India's bar value is 2.42 [chartqa_0114_txt], which aligns with the visual data showing Serbia and Montenegro as the highest category in this comparison chart.
 ────────────────────────────────────────────────────────────────────────
 
 📋 CITATION REPORT:
-  Citations found:       ['chartqa_0114_img', 'chartqa_0114_img', 'chartqa_0114_img', 'chartqa_0114_img', 'chartqa_0114_txt']
-  Valid citations:       ['chartqa_0114_img', 'chartqa_0114_img', 'chartqa_0114_img', 'chartqa_0114_img', 'chartqa_0114_txt']
+  Citations found:       ['chartqa_0114_img', 'chartqa_0114_txt', 'chartqa_0114_img', 'chartqa_0114_txt']
+  Valid citations:       ['chartqa_0114_img', 'chartqa_0114_txt', 'chartqa_0114_img', 'chartqa_0114_txt']
   ✅ No hallucinated citations detected.
 
   Model: claude-sonnet-4-20250514
-  Tokens: 3758 in / 175 out
+  Tokens: 3763 in / 187 out
 ========================================================================
 
 
@@ -262,27 +270,27 @@ Parameters: k_text=5, k_image=5
   [5] ai2d_0218_img          score: 0.2576  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0218.png
 
 🔗 CROSS-MODAL PAIRS (shared group_id):
-  (no cross-modal pairs found in current results)
+  (no cross-modal pairs found naturally via top k in current results, enriching with group_id lookup)
 
 🔗 ENRICHED PAIRS (fetched via group_id lookup):
-  group_id: ai2d_0215  →  text: ai2d_0215_txt (score: -1.0000)  |  image: ai2d_0215_img (score: 0.2576)
-  group_id: chartqa_0084  →  text: chartqa_0084_txt (score: 0.4299)  |  image: chartqa_0084_img (score: -1.0000)
-  group_id: chartqa_0184  →  text: chartqa_0184_txt (score: 0.4367)  |  image: chartqa_0184_img (score: -1.0000)
-  group_id: ai2d_0218  →  text: ai2d_0218_txt (score: -1.0000)  |  image: ai2d_0218_img (score: 0.2576)
-  group_id: ai2d_0217  →  text: ai2d_0217_txt (score: -1.0000)  |  image: ai2d_0217_img (score: 0.2576)
-  group_id: chartqa_0131  →  text: chartqa_0131_txt (score: -1.0000)  |  image: chartqa_0131_img (score: 0.2671)
-  group_id: chartqa_0235  →  text: chartqa_0235_txt (score: 0.4495)  |  image: chartqa_0235_img (score: -1.0000)
-  group_id: chartqa_0130  →  text: chartqa_0130_txt (score: -1.0000)  |  image: chartqa_0130_img (score: 0.2671)
   group_id: chartqa_0092  →  text: chartqa_0092_txt (score: 0.4025)  |  image: chartqa_0092_img (score: -1.0000)
+  group_id: ai2d_0217  →  text: ai2d_0217_txt (score: -1.0000)  |  image: ai2d_0217_img (score: 0.2576)
+  group_id: chartqa_0130  →  text: chartqa_0130_txt (score: -1.0000)  |  image: chartqa_0130_img (score: 0.2671)
+  group_id: chartqa_0235  →  text: chartqa_0235_txt (score: 0.4495)  |  image: chartqa_0235_img (score: -1.0000)
+  group_id: chartqa_0184  →  text: chartqa_0184_txt (score: 0.4367)  |  image: chartqa_0184_img (score: -1.0000)
+  group_id: chartqa_0084  →  text: chartqa_0084_txt (score: 0.4299)  |  image: chartqa_0084_img (score: -1.0000)
+  group_id: ai2d_0218  →  text: ai2d_0218_txt (score: -1.0000)  |  image: ai2d_0218_img (score: 0.2576)
+  group_id: chartqa_0131  →  text: chartqa_0131_txt (score: -1.0000)  |  image: chartqa_0131_img (score: 0.2671)
   group_id: chartqa_0176  →  text: chartqa_0176_txt (score: 0.4198)  |  image: chartqa_0176_img (score: -1.0000)
+  group_id: ai2d_0215  →  text: ai2d_0215_txt (score: -1.0000)  |  image: ai2d_0215_img (score: 0.2576)
 
 💬 GENERATING GROUNDED ANSWER...
 
 ────────────────────────────────────────────────────────────────────────
 ANSWER:
-Based on the provided evidence, I found a chart question that requires reading values from [chartqa_0235_txt]: "Find the two smallest values in the given chart and add them?" The answer to this question is 3.2 [chartqa_0235_txt].
+Based on the available evidence, I found a chart question that requires reading values from [chartqa_0235_txt]: "Find the two smallest values in the given chart and add them?" The answer is 3.2 [chartqa_0235_txt].
 
-This question specifically requires identifying and reading the two smallest numerical values shown in the chart, then performing the mathematical operation of adding them together [chartqa_0235_txt]. The chart image evidence [chartqa_0235_img] would contain the visual data needed to identify these smallest values, which when added together equal 3.2.
+This question specifically requires identifying and reading the two smallest numerical values from the chart data, then performing a mathematical operation (addition) on those values [chartqa_0235_txt]. The chart image [chartqa_0235_img] would contain the visual data needed to identify these smallest values, while the text evidence provides the calculated result.
 ────────────────────────────────────────────────────────────────────────
 
 📋 CITATION REPORT:
@@ -291,7 +299,7 @@ This question specifically requires identifying and reading the two smallest num
   ✅ No hallucinated citations detected.
 
   Model: claude-sonnet-4-20250514
-  Tokens: 2531 in / 133 out
+  Tokens: 2531 in / 130 out
 ========================================================================
 
 
@@ -313,25 +321,25 @@ Parameters: k_text=5, k_image=5
 
 🖼️  IMAGE RETRIEVAL RESULTS:
   [1] ai2d_0069_img          score: 0.2843  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0069.png
-  [2] ai2d_0070_img          score: 0.2843  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0070.png
-  [3] ai2d_0071_img          score: 0.2843  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0071.png
-  [4] ai2d_0072_img          score: 0.2843  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0072.png
-  [5] ai2d_0074_img          score: 0.2843  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0074.png
+  [2] ai2d_0071_img          score: 0.2843  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0071.png
+  [3] ai2d_0073_img          score: 0.2843  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0073.png
+  [4] ai2d_0075_img          score: 0.2843  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0075.png
+  [5] ai2d_0077_img          score: 0.2843  /Users/avinashbolleddula/Downloads/AI Agents/GitHub Repos/sophia-multimodal-rag/data/ai2d/ai2d_0077.png
 
 🔗 CROSS-MODAL PAIRS (shared group_id):
-  (no cross-modal pairs found in current results)
+  (no cross-modal pairs found naturally via top k in current results, enriching with group_id lookup)
 
 🔗 ENRICHED PAIRS (fetched via group_id lookup):
-  group_id: ai2d_0070  →  text: ai2d_0070_txt (score: -1.0000)  |  image: ai2d_0070_img (score: 0.2843)
-  group_id: ai2d_0069  →  text: ai2d_0069_txt (score: -1.0000)  |  image: ai2d_0069_img (score: 0.2843)
-  group_id: ai2d_0074  →  text: ai2d_0074_txt (score: -1.0000)  |  image: ai2d_0074_img (score: 0.2843)
-  group_id: chartqa_0184  →  text: chartqa_0184_txt (score: 0.3215)  |  image: chartqa_0184_img (score: -1.0000)
-  group_id: chartqa_0038  →  text: chartqa_0038_txt (score: 0.3217)  |  image: chartqa_0038_img (score: -1.0000)
-  group_id: ai2d_0072  →  text: ai2d_0072_txt (score: -1.0000)  |  image: ai2d_0072_img (score: 0.2843)
-  group_id: ai2d_0071  →  text: ai2d_0071_txt (score: -1.0000)  |  image: ai2d_0071_img (score: 0.2843)
-  group_id: chartqa_0130  →  text: chartqa_0130_txt (score: 0.3325)  |  image: chartqa_0130_img (score: -1.0000)
   group_id: chartqa_0092  →  text: chartqa_0092_txt (score: 0.3377)  |  image: chartqa_0092_img (score: -1.0000)
+  group_id: ai2d_0071  →  text: ai2d_0071_txt (score: -1.0000)  |  image: ai2d_0071_img (score: 0.2843)
+  group_id: chartqa_0038  →  text: chartqa_0038_txt (score: 0.3217)  |  image: chartqa_0038_img (score: -1.0000)
+  group_id: chartqa_0130  →  text: chartqa_0130_txt (score: 0.3325)  |  image: chartqa_0130_img (score: -1.0000)
+  group_id: ai2d_0069  →  text: ai2d_0069_txt (score: -1.0000)  |  image: ai2d_0069_img (score: 0.2843)
+  group_id: chartqa_0184  →  text: chartqa_0184_txt (score: 0.3215)  |  image: chartqa_0184_img (score: -1.0000)
   group_id: chartqa_0084  →  text: chartqa_0084_txt (score: 0.3539)  |  image: chartqa_0084_img (score: -1.0000)
+  group_id: ai2d_0073  →  text: ai2d_0073_txt (score: -1.0000)  |  image: ai2d_0073_img (score: 0.2843)
+  group_id: ai2d_0075  →  text: ai2d_0075_txt (score: -1.0000)  |  image: ai2d_0075_img (score: 0.2843)
+  group_id: ai2d_0077  →  text: ai2d_0077_txt (score: -1.0000)  |  image: ai2d_0077_img (score: 0.2843)
 
 💬 GENERATING GROUNDED ANSWER...
 
@@ -339,14 +347,14 @@ Parameters: k_text=5, k_image=5
 ANSWER:
 Insufficient evidence in retrieved documents to answer this question.
 
-The provided evidence contains various charts and food web diagrams, but none of them appear to be operational or technical charts that would require specific technician actions. The available materials include political survey data [chartqa_0084_txt], general categorical charts [chartqa_0092_txt] [chartqa_0038_txt], pie charts with satisfaction data [chartqa_0130_txt] [chartqa_0184_txt], and ecological food web diagrams [ai2d_0069_img] [ai2d_0070_img] [ai2d_0071_img], but no technical operational charts that would guide technician procedures.
+The provided evidence contains various chart analysis questions and food web diagrams, but none of the charts or their associated text provide specific operational instructions or procedural steps that would constitute a technician's next action. The chart evidence focuses on data interpretation (categories, percentages, factors) rather than operational procedures or technical workflows.
 ────────────────────────────────────────────────────────────────────────
 
 📋 CITATION REPORT:
-  Citations found:       ['chartqa_0084_txt', 'chartqa_0092_txt', 'chartqa_0038_txt', 'chartqa_0130_txt', 'chartqa_0184_txt', 'ai2d_0069_img', 'ai2d_0070_img', 'ai2d_0071_img']
-  Valid citations:       ['chartqa_0084_txt', 'chartqa_0092_txt', 'chartqa_0038_txt', 'chartqa_0130_txt', 'chartqa_0184_txt', 'ai2d_0069_img', 'ai2d_0070_img', 'ai2d_0071_img']
+  Citations found:       []
+  Valid citations:       []
   ✅ No hallucinated citations detected.
 
   Model: claude-sonnet-4-20250514
-  Tokens: 2166 in / 154 out
+  Tokens: 2182 in / 79 out
 ========================================================================
